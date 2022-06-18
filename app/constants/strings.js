@@ -1,0 +1,32 @@
+import LocalizedStrings from 'react-native-localization'
+
+export default new LocalizedStrings({
+  en: {
+    hart: 'HART',
+    email: 'Email',
+    password: 'Password',
+    signin: 'Sign in',
+    signinWithFacebook: 'OR through Facebook',
+    forgotMyPassword: 'Oops.. I forgot my password',
+    newUser: 'Are you a new user?',
+    createNewAccount: 'Create a new account now',
+    createYourAccount: 'Create your account',
+    fullname: 'Full name',
+    emailAddress: 'Email address',
+    phoneNumber: 'Phone number',
+    next: 'Next',
+    cancel: 'Cancel',
+    ok: 'Ok',
+    verifyYourEmail: 'Verify your email',
+    enterCode: 'Enter the verification code',
+    didNotReceiveSms: 'Did not receive an sms?',
+    resendCode: 'Resend code',
+    invalidOtp: 'Oops.. Invalid OTP',
+    forgotPassword: 'Forgot password',
+    updateYourPassword: 'Update your password',
+    newPassword: 'New password',
+    confirmNewPassword: 'Confirm new password',
+    send: 'Send',
+  },
+  ar: {},
+})
